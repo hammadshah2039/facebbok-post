@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Dashboard Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-left">
+            <div class="logo">f</div>
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Facebook">
+            </div>
+        </div>
+        
+        <div class="nav-center">
+            <a href="#" class="nav-icon active"><i class="fa-solid fa-house"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-user-group"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-tv"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-store"></i></a>
+            <a href="#" class="nav-icon"><i class="fa-solid fa-gamepad"></i></a>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-btn"><i class="fa-solid fa-bars"></i></div>
+            <div class="nav-btn"><i class="fa-brands fa-facebook-messenger"></i></div>
+            <div class="nav-btn"><i class="fa-solid fa-bell"></i></div>
+         <div class="fb-profile-avatar-container">
+    <img src="https://scontent.fkhi22-1.fna.fbcdn.net/v/t39.30808-1/474979200_993724012616264_2904256320359164111_n.jpg?stp=cp0_dst-jpg_tt6&amp;cstp=mx1080x1080&amp;ctp=s40x40&amp;_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=e99d92&amp;_nc_ohc=FI2RnEDfLfMQ7kNvwG4Hk-m&amp;_nc_oc=AdoLjN9XPv84r7SPm8HHbg6-L9ieIzDeSf0HbE3sy8JI04WhbzuCSfC1IhSuf2U_4xg&amp;_nc_zt=24&amp;_nc_ht=scontent.fkhi22-1.fna&amp;_nc_gid=fa_WqbsKe218UL-MAC554Q&amp;_nc_ss=7b2a8&amp;oh=00_Af8PErIoq-Hfvplm1og2_AeVyYsjfrOcUSbAQi9YQYmnZA&amp;oe=6A487B7A" alt="Profile Picture" class="fb-avatar">
+    
+    <button class="fb-dropdown-badge" aria-label="Options">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="fb-arrow-icon " id="arrowicon">
+            <path d="M12 15l-5-5h10z"/>
+        </svg>
+    </button>
+</div>
+        </div>
+    </header>
+
+<div class="main-container">
+    <div id="adpost">
+
+        <div class="main2">
+  
+  <div class="js-p-popup-card">
+  <!-- Header -->
+  <div class="js-p-header">
+  <h2>Create post</h2>
+  <button class="js-p-close-btn" aria-label="Close" id="crossbtn" >&times;</button>
+  </div>
+  
+  <!-- User Info -->
+  <div class="js-p-user-info">
+  <img src="images/4.jpeg" alt="Profile picture" class="js-p-avatar">
+  <div class="js-p-user-details">
+  <span class="js-p-username">Hammad shah</span>
+  <div class="js-p-privacy-selector">
+  <span class="js-p-privacy-icon">👥</span>
+  <span class="js-p-privacy-text">Friends</span>
+  <span class="js-p-dropdown-arrow">▼</span>
+  </div>
+  </div>
+  </div>
+
+  <!-- Content Area -->
+  <div class="js-p-content">
+  <textarea class="js-p-textarea" placeholder="What's on your mind, Hammad" id="text"></textarea>
+  </div>
+  
+  <!-- Add to your post section -->
+  <div class="js-p-widget-container">
+  <span class="js-p-widget-title">Add to your post</span>
+  <div class="js-p-action-group">
+  <button class="js-p-action-btn" title="Photo/Video">
+  <span class="js-p-icon" id="imgicon">🖼️ <input type="file" id="fileInput" accept="image/*" hidden> </span>
+  </button>
+  <button class="js-p-action-btn" title="Feeling/Activity">
+  <span class="js-p-icon">😊</span>
+  </button>
+  <button class="js-p-action-btn" title="Check In">
+  <span class="js-p-icon">📍</span>
+  </button>
+  <button class="js-p-action-btn" title="GIF">
+  <span class="js-p-icon">🖼️</span>
+  </button>
+  <button class="js-p-action-btn" title="More">
+  <span class="js-p-icon">•••</span>
+  </button>
+  </div>
+  </div>
+  
+  <!-- Submit Button -->
+  <button class="js-p-submit-btn" type="button" id="btnpost">Post</button>
+  </div>
+  </div>
+ 
+    </div>
+<aside class="sidebar-left">
+            <div class="menu-item">
+                <img src="images/4.jpeg" alt="Profile" class="avatar-small">
+                <span>Hammad shah</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-user-group color-blue"></i>
+                <span>Friends</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-users color-green"></i>
+                <span>Groups</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-store color-light-blue"></i>
+                <span>Marketplace</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-tv color-red"></i>
+                <span>Watch</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-clock color-orange"></i>
+                <span>Memories</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-bookmark color-purple"></i>
+                <span>Saved</span>
+            </div>
+            <div class="menu-item">
+                <i class="fa-solid fa-flag color-orange"></i>
+                <span>Pages</span>
+            </div>
+            <hr class="divider">
+            <h4 class="section-title">Your Shortcuts</h4>
+            <div class="menu-item">
+                <div class="shortcut-icon"><i class="fa-solid fa-code"></i></div>
+                <span>Web Developers Group</span>
+            </div>
+            <div class="menu-item">
+                <div class="shortcut-icon"><i class="fa-solid fa-gamepad"></i></div>
+                <span>Gamer Zone</span>
+            </div>
+        </aside>
+
+        <main class="feed-container">
+            
+            <div class="card create-post">
+                <div class="post-top">
+                    <img src="images/4.jpeg" alt="Profile" class="user-avatar">
+                    <input type="text" placeholder="What's on your mind, Hammad" id="POST">
+                </div>
+                <hr class="card-divider">
+                <div class="post-actions">
+                    <div class="action-btn"><i class="fa-solid fa-video color-red"></i> Live Video</div>
+                    <div class="action-btn"><i class="fa-solid fa-images color-green"></i> Photo/video</div>
+                    <div class="action-btn"><i class="fa-solid fa-face-smile color-orange"></i> Feeling/activity</div>
+                </div>
+            </div>
+            <div id="subpost">
+<img src="" id="postimage">
+</div>
+
+            <div class="card post">
+                <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=60" alt="User" class="user-avatar">
+                    <div class="post-user-info">
+                        <h5>Alex Smith</h5>
+                        <span>1 hr ago · <i class="fa-solid fa-earth-americas"></i></span>
+                    </div>
+                    <div class="post-opt"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="post-content">
+                    <p>Just finished building my brand new workstation setup! Ready to crush some code this week. 💻🚀</p>
+                </div>
+                <div class="post-media">
+                    <img src="https://images.unsplash.com/photo-1547082299-de196ea013d6?w=800&auto=format&fit=crop&q=60" alt="Post Image">
+                </div>
+                <div class="post-stats">
+                    <div class="likes-count">
+                        <i class="fa-solid fa-thumbs-up icon-like"></i>
+                        <i class="fa-solid fa-heart icon-heart"></i>
+                        <span>John Doe and 42 others</span>
+                    </div>
+                    <div class="comments-count">12 comments</div>
+                </div>
+                <hr class="card-divider">
+                <div class="post-interactions">
+                    <div class="interact-btn"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+                    <div class="interact-btn"><i class="fa-regular fa-comment"></i> Comment</div>
+                    <div class="interact-btn"><i class="fa-regular fa-share-from-square"></i> Share</div>
+                </div>
+            </div>
+
+
+
+    <div class="card post">
+        <div class="post-header">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=60" alt="User" class="user-avatar">
+                    <div class="post-user-info">
+                        <h5>Sarah Jenkins</h5>
+                        <span>4 hrs ago · <i class="fa-solid fa-earth-americas"></i></span>
+                    </div>
+                    <div class="post-opt"><i class="fa-solid fa-ellipsis"></i></div>
+                </div>
+                <div class="post-content">
+                    <p>"The best way to predict the future is to invent it." - Alan Kay. Hope everyone has an amazingly productive day today!</p>
+                </div>
+                <div class="post-stats">
+                    <div class="likes-count">
+                        <i class="fa-solid fa-thumbs-up icon-like"></i>
+                        <span>18</span>
+                    </div>
+                    <div class="comments-count">2 comments</div>
+                </div>
+                <hr class="card-divider">
+                <div class="post-interactions">
+                    <div class="interact-btn"><i class="fa-regular fa-thumbs-up"></i> Like</div>
+                    <div class="interact-btn"><i class="fa-regular fa-comment"></i> Comment</div>
+                    <div class="interact-btn"><i class="fa-regular fa-share-from-square"></i> Share</div>
+                </div>
+            </div>
+       
+
+        </main>
+<div class="sidebarparent">
+
+</div>
+
+
+
+        
+        <aside class="sidebar-right">
+        <div class="sidebar-right-header">
+                <h4 class="section-title">Contacts</h4>
+                <div class="contact-actions">
+                    <i class="fa-solid fa-video"></i>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-ellipsis"></i>
+                    
+                </div>
+            </div>
+            
+            <div class="contact-item">
+                <div class="avatar-wrapper">
+                    <img src="images/5.png" alt="Contact" class="avatar-small">
+                    <span class="online-status"></span>
+                </div>
+                <span> AI</span>
+            </div>
+
+            <div class="contact-item">
+                <div class="avatar-wrapper">
+                    <img src="images/1.jpeg" alt="Contact" class="avatar-small">
+                    <span class="online-status"></span>
+                </div>
+                <span>Hasham</span>
+            </div>
+            
+            <div class="contact-item">
+                <div class="avatar-wrapper">
+                    <img src="images/2.jpeg" alt="Contact" class="avatar-small">
+                    <span class="online-status"></span>
+                </div>
+                <span>Hassan Ali</span>
+            </div>
+
+            <div class="contact-item">
+                <div class="avatar-wrapper">
+                    <img src="images/3.jpeg" alt="Contact" class="avatar-small">
+                    <span class="online-status opacity-offline"></span>
+                </div>
+                <span>Saif</span>
+                <!-- <div class="post"></div> -->
+            </div>
+        </aside>
+        
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
